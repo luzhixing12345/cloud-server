@@ -1,0 +1,91 @@
+@import url("http://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-user-drag: none;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden; 
+	overflow-y:auto;
+}
+body{
+	width: 100%;
+	min-height: 100%;
+    background-size: cover;
+    background-image: url("./wall_paper/wallhaven-0qorz7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position : relative;
+    /* background: inherit; */
+    backdrop-filter: blur(0px);
+    transition: all 1s ease;
+    /* -webkit-backdrop-filter: blur(5px); */
+}
+
+
+/* .container::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+    filter: blur(2px);
+} */
+
+.up {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 50px 150px; */
+}
+
+.down {
+
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 150px; */
+}
+
+.between {
+    min-height: 50px;
+}
+
+.box {
+    background-color: rgb(233, 251, 255);
+    opacity: 0.75;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 40px;
+    box-shadow:  6px 6px 12px #8f8f8f, 6px 6px 12px #8f8f8f;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;   
+}
+
+.box:hover {
+    box-shadow:  12px 12px 24px #8f8f8f, 6px 6px 12px #8f8f8f;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
