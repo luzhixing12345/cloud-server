@@ -1,3 +1,6 @@
+
+import { addGithubIconLink,addNextIconLink } from "../utils.js";
+
 const container = document.getElementById('container')
 const colors = ['#e74c3c','#8e44ad','#3498db','#e67e22','#2ecc71']
 
@@ -26,3 +29,6 @@ function removeColor(element) {
 function getRandomColor() {
     return colors[Math.floor(Math.random()*colors.length)]
 }
+
+addGithubIconLink("https://github.com/luzhixing12345/html-css-js/tree/main/examples/mouse-input")
+addNextIconLink("../text-input/index.html","../magic-card/index.html")

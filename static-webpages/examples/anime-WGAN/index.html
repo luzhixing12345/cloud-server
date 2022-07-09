@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel='stylesheet' href='../utils.css' />
   </head>
   <body>
+    <div class="icon-set" id="icon-set"></div>
     <div class="content">
       <div class="inputBox">
         <div class="container" id="container" draggable="false"></div>
@@ -15,9 +17,10 @@
         <button class="custom-btn btn-style regenerate-btn" style="height: 50px;" onclick="initalizeContainerColor()">随机</button>
       </div>
       <button class="custom-btn btn-style" onclick="generate()">生成</button>
-      <img src="../static/fake_images.png" alt="logo" class="logo" />
+      <img src="./fake_images.png" alt="logo" class="logo" />
     </div>
     <!-- <button onclick="initalizeContainerColor()">123</button> -->
-    <script src="./index.js"></script>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

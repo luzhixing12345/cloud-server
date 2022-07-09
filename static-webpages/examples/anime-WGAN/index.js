@@ -1,3 +1,5 @@
+
+import  {addGithubIconLink, addNextIconLink}  from "../utils.js";
 const container = document.getElementById('container')
 
 let isDrawing = false;
@@ -131,3 +133,7 @@ function generate() {
 //         block.style.height*= width/basicWidth;
 //     }
 // }
+
+
+addGithubIconLink('https://github.com/luzhixing12345/html-css-js/tree/main/examples/anime-WGAN')
+addNextIconLink('../canvas/index.html',null)

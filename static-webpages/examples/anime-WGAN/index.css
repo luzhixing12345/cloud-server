@@ -19,6 +19,7 @@ body {
   display: flex;
   align-items: center;
   position: relative;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 80%;
   height: 80%;
@@ -115,3 +116,4 @@ body {
   width: 30%;
   height: 30%;
 }
+

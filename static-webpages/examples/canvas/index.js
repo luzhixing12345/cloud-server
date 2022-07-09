@@ -1,3 +1,6 @@
+
+import { addGithubIconLink,addNextIconLink } from "../utils.js";
+
 let canvas = document.getElementById("canvas");
 let context = canvas.getContext("2d");
 
@@ -130,3 +133,7 @@ function setRandomValue() {
     blocks[i] = getGaussian(0, 1);
   }
 }
+
+
+addGithubIconLink('https://github.com/luzhixing12345/html-css-js/tree/main/examples/canvas')
+addNextIconLink('../flip-card/index.html','../anime-WGAN/index.html')
